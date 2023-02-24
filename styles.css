@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: #eee;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #1c8adb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #1c8adb;
+  }
+  
+  /* Contact Me Styles */
+  #contact-me {
+    text-align: center;
+    background-color: #eee;
+    border: 2px solid #1c8adb;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 5px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    main {
+      padding: 5px;
+    }
+  
+    img {
+      margin: 5px auto;
+    }
+  
+    .projects th,
+    .projects td {
+      padding: 6px;
+    }
+  
+    h3 {
+      margin-top: 10px;
+    }
+  }
+  
